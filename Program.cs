@@ -7,10 +7,18 @@ namespace myApp {
         static void testPlus () {
             Rational a = new Rational(1,2); 
             Rational b = new Rational(1,3);
+            Rational c = new Rational(2,7); 
+            Rational d = new Rational(1,12);
             Rational expected = new Rational(5,6); 
             Rational actual = plus(a,b);
             Debug.Assert(actual.numerator == 5); 
             Debug.Assert(actual.denominator == 6);
+            actual = plus(a,c);
+            Debug.Assert(actual.numerator == 11); 
+            Debug.Assert(actual.denominator == 14);
+            actual = plus(a,d);
+            Debug.Assert(actual.numerator == 7); 
+            Debug.Assert(actual.denominator == 12);
             Debug.Assert(actual.denominator == 0);
             
         }

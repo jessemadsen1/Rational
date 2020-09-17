@@ -11,3 +11,16 @@
 /home/jesse/2450_Intro_SE/Rational/obj/Debug/netcoreapp3.1/Rational.dll
 /home/jesse/2450_Intro_SE/Rational/obj/Debug/netcoreapp3.1/Rational.pdb
 /home/jesse/2450_Intro_SE/Rational/obj/Debug/netcoreapp3.1/Rational.genruntimeconfig.cache
+/home/jesse/Rational/bin/Debug/netcoreapp3.1/Rational
+/home/jesse/Rational/bin/Debug/netcoreapp3.1/Rational.deps.json
+/home/jesse/Rational/bin/Debug/netcoreapp3.1/Rational.runtimeconfig.json
+/home/jesse/Rational/bin/Debug/netcoreapp3.1/Rational.runtimeconfig.dev.json
+/home/jesse/Rational/bin/Debug/netcoreapp3.1/Rational.dll
+/home/jesse/Rational/bin/Debug/netcoreapp3.1/Rational.pdb
+/home/jesse/Rational/obj/Debug/netcoreapp3.1/Rational.csprojAssemblyReference.cache
+/home/jesse/Rational/obj/Debug/netcoreapp3.1/Rational.AssemblyInfoInputs.cache
+/home/jesse/Rational/obj/Debug/netcoreapp3.1/Rational.AssemblyInfo.cs
+/home/jesse/Rational/obj/Debug/netcoreapp3.1/Rational.csproj.CoreCompileInputs.cache
+/home/jesse/Rational/obj/Debug/netcoreapp3.1/Rational.dll
+/home/jesse/Rational/obj/Debug/netcoreapp3.1/Rational.pdb
+/home/jesse/Rational/obj/Debug/netcoreapp3.1/Rational.genruntimeconfig.cache

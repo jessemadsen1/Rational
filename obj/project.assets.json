@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/jesse/2450_Intro_SE/Rational/Rational.csproj",
+      "projectUniqueName": "/home/jesse/Rational/Rational.csproj",
       "projectName": "Rational",
-      "projectPath": "/home/jesse/2450_Intro_SE/Rational/Rational.csproj",
+      "projectPath": "/home/jesse/Rational/Rational.csproj",
       "packagesPath": "/home/jesse/.nuget/packages/",
-      "outputPath": "/home/jesse/2450_Intro_SE/Rational/obj/",
+      "outputPath": "/home/jesse/Rational/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/jesse/.nuget/NuGet/NuGet.Config"

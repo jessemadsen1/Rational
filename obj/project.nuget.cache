@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/vht1Wvh95mkm1fIeSpfxMf+kNJk9h22CXORA51w70TAFzzt6USwk0kV8fDcelQzJJhWJ4chixiXykmQ7WAPYw==",
+  "dgSpecHash": "WK38+QOm1JNIVSRbXmkwyAobFkPjQ3fTtaDCvwhfnye5UYsAncw7A8UqqQDgZOUdLzkrx9Ojvp6sM78WYHP06w==",
   "success": true,
-  "projectFilePath": "/home/jesse/2450_Intro_SE/Rational/Rational.csproj",
+  "projectFilePath": "/home/jesse/Rational/Rational.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

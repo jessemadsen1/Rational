@@ -9,7 +9,7 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "/home/jesse/2450_Intro_SE/Rational/bin/Debug/netcoreapp3.1/Rational.dll",
+            "program": "/home/jesse/Rational/bin/Debug/netcoreapp3.1/Rational.dll",
             "args": [],
             "cwd": "${workspaceFolder}",
             "stopAtEntry": false,
