@@ -9,6 +9,7 @@ namespace myApp {
             Rational b = new Rational(1,3);
             Rational c = new Rational(2,7); 
             Rational d = new Rational(1,12);
+            Rational e = new Rational(2,8);
             Rational expected = new Rational(5,6); 
             Rational actual = plus(a,b);
             Debug.Assert(actual.numerator == 5); 
@@ -19,7 +20,13 @@ namespace myApp {
             actual = plus(a,d);
             Debug.Assert(actual.numerator == 7); 
             Debug.Assert(actual.denominator == 12);
-            Debug.Assert(actual.denominator == 0);
+            actual = plus(a,a);
+            Debug.Assert(actual.numerator == 1); 
+            Debug.Assert(actual.denominator == 1);
+            actual = plus(a,e);
+            Debug.Assert(actual.numerator == 3); 
+            Debug.Assert(actual.denominator == 4);            
+            //Debug.Assert(actual.denominator == 0);
             
         }
         static Rational plus(Rational a, Rational b) {
