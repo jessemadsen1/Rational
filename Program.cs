@@ -38,6 +38,14 @@ namespace myApp {
             actual = a * a;
             Debug.Assert(actual.numerator == 1); 
             Debug.Assert(actual.denominator == 4);    
+
+            actual = a;
+            actual += a;
+            gcd = GCD(actual.numerator,actual.denominator);
+            actual.numerator = actual.numerator/gcd;
+            actual.denominator = actual.denominator/gcd;
+            Debug.Assert(actual.numerator == 1); 
+            Debug.Assert(actual.denominator == 1); 
             //Debug.Assert(actual.denominator == 0);
             
         }
