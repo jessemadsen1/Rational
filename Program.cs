@@ -25,7 +25,19 @@ namespace myApp {
             Debug.Assert(actual.denominator == 1);
             actual = plus(a,e);
             Debug.Assert(actual.numerator == 3); 
-            Debug.Assert(actual.denominator == 4);            
+            Debug.Assert(actual.denominator == 4);      
+
+            //test overloaded operators
+            actual = a + a;
+            int gcd = GCD(actual.numerator,actual.denominator);
+            actual.numerator = actual.numerator/gcd;
+            actual.denominator = actual.denominator/gcd;
+            Debug.Assert(actual.numerator == 1); 
+            Debug.Assert(actual.denominator == 1); 
+
+            actual = a * a;
+            Debug.Assert(actual.numerator == 1); 
+            Debug.Assert(actual.denominator == 4);    
             //Debug.Assert(actual.denominator == 0);
             
         }
@@ -47,8 +59,7 @@ namespace myApp {
             answer.denominator = answer.denominator/gcd;
             return answer;
         }
-
-        private static int GCD(int a, int b)
+                private static int GCD(int a, int b)
         {
             if(a > b)
             {
@@ -72,6 +83,8 @@ namespace myApp {
                 return Euclids(b, leftOver);
             }
         }
+
+
         public static void Main(string[] args) {
             Console.WriteLine("About to run test\n");
             testPlus();
@@ -80,14 +93,21 @@ namespace myApp {
         }
     class Rational {
 
+        
         public int numerator {get; set;}
         public int denominator{get; set;}
 
         public Rational (int num, int den) {
             numerator = num;
             denominator = den;
-         
         }
+        public static Rational operator +(Rational a) => a;
+        
+        public static Rational operator +(Rational a, Rational b)
+        => new Rational(a.numerator * b.denominator + b.numerator * a.denominator, a.denominator * b.denominator);
+        
+        public static Rational operator *(Rational a, Rational b)
+        => new Rational(a.numerator * b.numerator, a.denominator * b.denominator);
         public void showRational () {
                 Console.WriteLine(numerator + "/" + denominator);
         }
