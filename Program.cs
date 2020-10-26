@@ -46,6 +46,8 @@ namespace myApp {
             actual.denominator = actual.denominator/gcd;
             Debug.Assert(actual.numerator == 1); 
             Debug.Assert(actual.denominator == 1); 
+
+            
             //Debug.Assert(actual.denominator == 0);
             
         }
